@@ -1,0 +1,9 @@
+[project]
+name = "articles"
+version = "0.0"
+description = "zimmer artifact"
+requires-python = ">=3.8"
+dependencies = []
+
+[tool.flit.module]
+name = "metazimmer"

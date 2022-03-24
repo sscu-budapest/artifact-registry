@@ -1,0 +1,22 @@
+post:
+  subject_of_records: Post
+  features:
+  - name: post_id
+    dtype: str
+  - name: rank
+    dtype: int
+  - name: title
+    dtype: str
+  - name: link
+    dtype: str
+  - name: sitebit
+    dtype: str
+  - name: posted
+    dtype: str
+  - name: score
+    dtype: int
+  - name: poster
+    dtype: str
+  - name: comments
+    dtype: int
+  partition_max_rows: 10000
