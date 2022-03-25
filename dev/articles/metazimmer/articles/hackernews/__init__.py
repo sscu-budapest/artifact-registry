@@ -17,6 +17,7 @@ class PostFeatures(dz.TableFeaturesBase):
     score = int
     poster = str
     comments = int
+    collected = datetime
 
 
 post_table = dz.ScruTable(features=PostFeatures, subject_of_records=Post, max_partition_size=10000)

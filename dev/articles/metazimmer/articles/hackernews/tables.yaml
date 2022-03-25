@@ -19,4 +19,6 @@ post:
     dtype: str
   - name: comments
     dtype: int
+  - name: collected
+    dtype: datetime
   partition_max_rows: 10000
