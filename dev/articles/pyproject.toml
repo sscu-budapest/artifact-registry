@@ -1,6 +1,6 @@
 [project]
 name = "articles"
-version = "0.0"
+version = "0.1"
 description = "zimmer artifact"
 requires-python = ">=3.8"
 dependencies = []
