@@ -1,0 +1,26 @@
+covid_victim:
+  subject_of_records: CovidVictim
+  features:
+  - name: age
+    dtype: int
+  - name: estimated_date
+    dtype: datetime
+  - name: is_male
+    dtype: bool
+  - name: raw_conditions
+    dtype: str
+  - prefix: condition
+    dtype: Condition
+  - name: positive_rate
+    dtype: float
+  - name: total_vaccinations
+    dtype: int
+  - name: people_vaccinated
+    dtype: int
+  - name: people_fully_vaccinated
+    dtype: int
+  - name: total_boosters
+    dtype: int
+  index:
+  - name: serial
+    dtype: int
