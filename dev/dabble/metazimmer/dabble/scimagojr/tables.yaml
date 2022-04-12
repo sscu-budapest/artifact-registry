@@ -35,6 +35,8 @@ journal:
     dtype: str
   - name: coverage
     dtype: str
+  - name: categories
+    dtype: str
   index:
   - name: sourceid
     dtype: int

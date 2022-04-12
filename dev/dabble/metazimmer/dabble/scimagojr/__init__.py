@@ -25,6 +25,7 @@ class JournalFeatures(dz.TableFeaturesBase):
     region = str
     publisher = str
     coverage = str
+    categories = str
 
 
 class JournalIndex(dz.IndexBase):
