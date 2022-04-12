@@ -3,6 +3,8 @@ journal:
   features:
   - name: rank
     dtype: int
+  - name: journal_rating
+    dtype: float
   - name: title
     dtype: str
   - name: type

@@ -9,6 +9,7 @@ class Journal(dz.BaseEntity):
 
 class JournalFeatures(dz.TableFeaturesBase):
     rank = int
+    journal_rating = float
     title = str
     type = str
     issn = str
