@@ -1,0 +1,38 @@
+journal:
+  subject_of_records: Journal
+  features:
+  - name: rank
+    dtype: int
+  - name: title
+    dtype: str
+  - name: type
+    dtype: str
+  - name: issn
+    dtype: str
+  - name: h_index
+    dtype: int
+  - name: total_docs_2020
+    dtype: int
+  - name: ref_per_doc
+    dtype: float
+  - name: sjr_best_quartile
+    dtype: str
+  - name: total_docs_3years
+    dtype: int
+  - name: total_refs
+    dtype: int
+  - name: total_cites_3years
+    dtype: int
+  - name: citable_docs_3years
+    dtype: int
+  - name: country
+    dtype: str
+  - name: region
+    dtype: str
+  - name: publisher
+    dtype: str
+  - name: coverage
+    dtype: str
+  index:
+  - name: sourceid
+    dtype: int
