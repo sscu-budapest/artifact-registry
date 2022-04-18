@@ -1,0 +1,33 @@
+download:
+  subject_of_records: Download
+  features:
+  - name: timestamp
+    dtype: datetime
+  - name: country_code
+    dtype: str
+  - name: project_name
+    dtype: str
+  - name: package_version
+    dtype: str
+  - name: distribution_type
+    dtype: str
+  - name: installer_name
+    dtype: str
+  - name: installer_version
+    dtype: str
+  - name: python_implementation_name
+    dtype: str
+  - name: python_implementation_version
+    dtype: str
+  - name: sys_name
+    dtype: str
+  - name: sys_distro_name
+    dtype: str
+  - name: sys_distro_version
+    dtype: str
+  - name: cpu
+    dtype: str
+  - name: openssl_version
+    dtype: str
+  - name: setuptools_version
+    dtype: str
