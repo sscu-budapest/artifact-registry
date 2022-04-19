@@ -1,0 +1,38 @@
+nep_inclusion:
+  subject_of_records: NepInclusion
+  features:
+  - prefix: paper
+    table: paper
+  index:
+  - name: ind
+    dtype: int
+  - prefix: issue
+    table: nep_issue
+nep_issue:
+  subject_of_records: NepIssue
+  features:
+  - prefix: nep
+    table: nep
+  - name: published
+    dtype: datetime
+  index:
+  - name: neid
+    dtype: str
+nep:
+  subject_of_records: Nep
+  features:
+  - name: title
+    dtype: str
+  - name: info
+    dtype: str
+  index:
+  - name: nid
+    dtype: str
+paper:
+  subject_of_records: Paper
+  features:
+  - name: link
+    dtype: str
+  index:
+  - name: pid
+    dtype: str
