@@ -3,6 +3,14 @@ from datetime import datetime  # noqa: F401
 import datazimmer as dz
 
 
+class Author(dz.BaseEntity):
+    pass
+
+
+class Authorship(dz.BaseEntity):
+    pass
+
+
 class NepInclusion(dz.BaseEntity):
     pass
 
@@ -16,6 +24,18 @@ class Nep(dz.BaseEntity):
 
 
 class Paper(dz.BaseEntity):
+    pass
+
+
+class AuthorFeatures(dz.TableFeaturesBase):
+    name = str
+
+
+class AuthorIndex(dz.IndexBase):
+    aid = str
+
+
+class AuthorshipFeatures(dz.TableFeaturesBase):
     pass
 
 
@@ -34,10 +54,19 @@ class NepIndex(dz.IndexBase):
 
 class PaperFeatures(dz.TableFeaturesBase):
     link = str
+    year = float
+    abstract = str
+    title = str
+    institution = str
 
 
 class PaperIndex(dz.IndexBase):
     pid = str
+
+
+class AuthorshipIndex(dz.IndexBase):
+    paper = PaperIndex
+    author = AuthorIndex
 
 
 class NepInclusionFeatures(dz.TableFeaturesBase):
@@ -54,6 +83,8 @@ class NepIssueFeatures(dz.TableFeaturesBase):
     published = datetime
 
 
+author_table = dz.ScruTable(features=AuthorFeatures, subject_of_records=Author, index=AuthorIndex)
+authorship_table = dz.ScruTable(features=AuthorshipFeatures, subject_of_records=Authorship, index=AuthorshipIndex)
 nep_inclusion_table = dz.ScruTable(
     features=NepInclusionFeatures, subject_of_records=NepInclusion, index=NepInclusionIndex
 )

@@ -1,3 +1,18 @@
+author:
+  subject_of_records: Author
+  features:
+  - name: name
+    dtype: str
+  index:
+  - name: aid
+    dtype: str
+authorship:
+  subject_of_records: Authorship
+  index:
+  - prefix: paper
+    table: paper
+  - prefix: author
+    table: author
 nep_inclusion:
   subject_of_records: NepInclusion
   features:
@@ -32,6 +47,14 @@ paper:
   subject_of_records: Paper
   features:
   - name: link
+    dtype: str
+  - name: year
+    dtype: float
+  - name: abstract
+    dtype: str
+  - name: title
+    dtype: str
+  - name: institution
     dtype: str
   index:
   - name: pid
