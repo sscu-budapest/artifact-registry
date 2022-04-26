@@ -1,0 +1,9 @@
+[project]
+name = "mobility"
+version = "0.1"
+description = "zimmer project"
+requires-python = ">=3.8"
+dependencies = [ "gpsping",]
+
+[tool.flit.module]
+name = "metazimmer"

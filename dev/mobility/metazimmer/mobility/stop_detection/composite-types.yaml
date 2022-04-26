@@ -1,0 +1,14 @@
+Arrival:
+  features:
+  - name: speed
+    dtype: float
+  - name: distance
+    dtype: float
+  - name: time
+    dtype: float
+Duration:
+  features:
+  - name: start
+    dtype: datetime
+  - name: end
+    dtype: datetime

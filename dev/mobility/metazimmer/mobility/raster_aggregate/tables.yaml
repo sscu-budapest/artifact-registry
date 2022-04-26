@@ -1,0 +1,14 @@
+raster_hour:
+  subject_of_records: RasterHour
+  features:
+  - name: month
+    dtype: str
+  - name: count
+    dtype: int
+  index:
+  - name: raster_id
+    dtype: str
+  - name: hour
+    dtype: datetime
+  partitioning_cols:
+  - month
