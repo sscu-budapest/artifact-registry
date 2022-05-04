@@ -50,12 +50,15 @@ paper:
     dtype: str
   - name: year
     dtype: float
+    nullable: true
   - name: abstract
     dtype: str
+    nullable: true
   - name: title
     dtype: str
   - name: institution
     dtype: str
+    nullable: true
   index:
   - name: pid
     dtype: str

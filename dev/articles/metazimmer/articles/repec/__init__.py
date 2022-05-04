@@ -54,10 +54,10 @@ class NepIndex(dz.IndexBase):
 
 class PaperFeatures(dz.TableFeaturesBase):
     link = str
-    year = float
-    abstract = str
+    year = dz.Nullable(float)
+    abstract = dz.Nullable(str)
     title = str
-    institution = str
+    institution = dz.Nullable(str)
 
 
 class PaperIndex(dz.IndexBase):
