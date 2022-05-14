@@ -1,9 +1,0 @@
-[project]
-name = "dabble"
-version = "0.4"
-description = "zimmer project"
-requires-python = ">=3.8"
-dependencies = []
-
-[tool.flit.module]
-name = "metazimmer"
