@@ -1,3 +1,5 @@
 cron: 0 16 * * 1
-tags: []
+tags:
+- zimmer-v0/0.7/2022.11.17.1/complete
+- zimmer-v0/0.7/2022.11.17.1/minimal
 uri: https://github.com/sscu-budapest/articledata
