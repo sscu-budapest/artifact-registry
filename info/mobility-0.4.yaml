@@ -1,3 +1,5 @@
 cron: ''
-tags: []
+tags:
+- zimmer-v0/0.4/2022.12.7.1/complete
+- zimmer-v0/0.4/2022.12.7.1/small
 uri: https://github.com/sscu-budapest/mobility
