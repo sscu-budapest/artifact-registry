@@ -2,4 +2,5 @@ cron: 35 9,11,16 * * *
 tags:
 - zimmer-v0/0.0/2023.1.23.1/complete
 - zimmer-v0/0.0/2023.1.23.2/complete
+- zimmer-v0/0.0/2023.1.23.3/complete
 uri: https://github.com/sscu-budapest/bbc-sentiment
