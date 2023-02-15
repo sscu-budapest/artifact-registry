@@ -1,0 +1,7 @@
+cron: ''
+tags:
+- zimmer-v0/0.5/2023.2.16.1/#raw
+- zimmer-v0/0.5/2023.2.16.2/#raw
+- zimmer-v0/0.5/2023.2.16.2/complete
+- zimmer-v0/0.5/2023.2.16.2/small
+uri: https://github.com/sscu-budapest/mobility
