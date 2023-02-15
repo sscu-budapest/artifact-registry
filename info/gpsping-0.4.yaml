@@ -11,4 +11,15 @@ tags:
 - zimmer-v0/0.4/2023.2.15.1/non_covid_sunday
 - zimmer-v0/0.4/2023.2.15.1/non_covid_thursday
 - zimmer-v0/0.4/2023.2.15.1/non_covid_tuesday
+- zimmer-v0/0.4/2023.2.15.2/complete
+- zimmer-v0/0.4/2023.2.15.2/covid_full_week
+- zimmer-v0/0.4/2023.2.15.2/covid_saturday
+- zimmer-v0/0.4/2023.2.15.2/covid_sunday
+- zimmer-v0/0.4/2023.2.15.2/covid_thursday
+- zimmer-v0/0.4/2023.2.15.2/covid_tuesday
+- zimmer-v0/0.4/2023.2.15.2/non_covid_full_week
+- zimmer-v0/0.4/2023.2.15.2/non_covid_saturday
+- zimmer-v0/0.4/2023.2.15.2/non_covid_sunday
+- zimmer-v0/0.4/2023.2.15.2/non_covid_thursday
+- zimmer-v0/0.4/2023.2.15.2/non_covid_tuesday
 uri: https://github.com/sscu-budapest/gps-ping-data
