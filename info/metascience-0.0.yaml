@@ -1,0 +1,6 @@
+cron: ''
+tags:
+- zimmer-v0/0.0/2023.4.6.1/#raw
+- zimmer-v0/0.0/2023.4.6.1/complete
+- zimmer-v0/0.0/2023.4.6.1/minimal
+uri: https://github.com/sscu-budapest/metascience
