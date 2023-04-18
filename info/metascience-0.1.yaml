@@ -1,5 +1,8 @@
-cron: ''
+cron: 0 8 * * 2
 tags:
+- zimmer-v0/0.1/2023.4.18.1/#raw
+- zimmer-v0/0.1/2023.4.18.1/complete
+- zimmer-v0/0.1/2023.4.18.1/minimal
 - zimmer-v0/0.1/2023.4.6.1/#raw
 - zimmer-v0/0.1/2023.4.6.1/complete
 - zimmer-v0/0.1/2023.4.6.1/minimal
