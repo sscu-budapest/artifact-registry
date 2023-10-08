@@ -1,4 +1,4 @@
-cron: ''
+cron: 0 6 * * *
 tags:
 - zimmer-v0/0.1/2023.2.27.1/complete
 - zimmer-v0/0.1/2023.3.10.1/complete
@@ -54,6 +54,9 @@ tags:
 - zimmer-v0/0.1/2023.5.23.1/complete
 - zimmer-v0/0.1/2023.5.24.1/complete
 - zimmer-v0/0.1/2023.5.25.1/complete
+- zimmer-v0/0.1/2023.5.26.1/complete
+- zimmer-v0/0.1/2023.5.27.1/complete
+- zimmer-v0/0.1/2023.5.28.1/complete
 - zimmer-v0/0.1/2023.5.3.1/complete
 - zimmer-v0/0.1/2023.5.4.1/complete
 - zimmer-v0/0.1/2023.5.5.1/complete
